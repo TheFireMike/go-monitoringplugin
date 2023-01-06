@@ -1,4 +1,4 @@
-module github.com/inexio/go-monitoringplugin
+module github.com/TheFireMike/go-monitoringplugin
 
 go 1.14
 
