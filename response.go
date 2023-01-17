@@ -412,7 +412,7 @@ func (r *Response) CheckThresholds(point *PerformanceDataPoint) error {
 		if point.Label != "" {
 			msg += " (" + point.Label + ")"
 		}
-		msg += " is outside of " + StatusCode2Text(res) + " threshold (" + fmt.Sprint(point.Value)
+		msg += " violates " + StatusCode2Text(res) + " threshold (" + fmt.Sprint(point.Value)
 		if point.Unit != "" {
 			msg += point.Unit
 		}
